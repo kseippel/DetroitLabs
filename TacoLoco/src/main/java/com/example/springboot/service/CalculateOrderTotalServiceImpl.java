@@ -52,6 +52,6 @@ public class CalculateOrderTotalServiceImpl implements CalculateOrderTotalServic
      * @return
      */
     private Double applyDiscount(Double totalPayment, Double discountAmount) {
-        return totalPayment * 1-discountAmount;
+        return totalPayment * (1-discountAmount);
     }
 }
